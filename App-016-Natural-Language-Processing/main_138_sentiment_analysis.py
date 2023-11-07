@@ -26,5 +26,5 @@ tweet1 = nltk.corpus.twitter_samples.strings()[1045]
 print(tweet1)
 
 
-polarity_scores = analyzer.polarity_scores(tweet1)
-print(polarity_scores)
+scores = analyzer.polarity_scores(tweet1)
+print(scores)
